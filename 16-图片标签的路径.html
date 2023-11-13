@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+    <!-- 同级目录 3种写法
+         ./1.png
+          1.png
+          D:/html code/qianfen_Learn/res/1.png   绝对路径 
+     -->
+
+    <img src="res\1.png">
+    <img src="res/3.jpg">
+    <img src="res/4.gif">
+    <!-- 绝对路径只有file协议可以打开 -->
+    <img src=" D:/html code/qianfen_Learn/res/4.gif">  
+      <!-- 不同目录
+      ../res/2.gif  ..表示返回上一级，在上一级查找图片
+      也可以写成../../../巴拉巴拉，可以返回多级
+      -->
+  
+      <img src="../res/2.gif">
+      <!-- 这里是找不到的，因为已经越过这里
+        的最高级目录QIANFEN_LEARN文件夹了，
+        不能越过他 ，但是16-图片相对路径返回上级的副本没越过
+      -->
+  
+
+</body>
+</html>
+<!-- 
+
+  http://127.0.0.1:5500/16-%E5%9B%BE%E7%89%87%E6%A0%87%E7%AD%B
+E%E7%9A%84%E8%B7%AF%E5%BE%84.html
+
+  file:///D:/html%20code/qianfen_Learn/16-%E5%9B%BE%E7%89%87%E6
+%A0%87%E7%AD%BE%E7%9A%84%E8%B7%AF%E5%BE%84.html
+第一个是Https协议
+ 第二个是file协议
+-->
