@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 表格合并列 -->
+    <!-- 
+        rowspan 合并不同行 在y轴吞并
+        colspan 合并不同列 在x轴吞并
+     -->
+    <table width="200px" height="300px" cellspacing="0px" border="1px">
+        <tr>
+            <td>不毛</td>
+            <td rowspan="2" colspan="2">魏国</td>
+            <!-- <td>辽东</td>    -->
+        </tr>
+        <tr>
+            <td rowspan="2">蜀国</td>
+            <!-- <td>西凉</td> -->
+            <!-- <td>幽州</td> -->
+        </tr>
+        <tr>
+            <!-- <td>南中</td> -->
+            <td colspan="2">吴国</td>
+            <!-- <td>荆州</td> -->
+        </tr>
+    </table>
+</body>
+</html>
