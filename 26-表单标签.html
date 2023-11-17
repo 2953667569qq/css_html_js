@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 表单： 收集信息用的 -->
+    <!-- 
+        form 表单 
+        input 输入框  属性 ：  type  placeholder （里面输入提示）
+        type的参数 text  文本   password 密码  
+        buttom 按钮
+        value 显示
+        submit 提交
+        reset 重置
+     -->
+    <form action="http://www.jd.com" method="post">
+        用户信息: <input type="" placeholder="请输入你的用户名" name="userName">
+        <br>
+    密码:<input type="password" placeholder="请输入你的密码" name="word">
+    <br>
+    <input type="submit" value="登录">
+    <button type="submit">登录</button><!--与input一样-->
+    <!-- 提交到action指定的地址 -->
+    <input type="reset" value="重置">
+    <button type="reset">重置</button>
+    <input type="button" value="自定义按钮">
+    </form>
+    
+</body>
+</html>
+<!--GPT解释 
+
+    <form> 元素定义了一个表单，action 属性指定了数据提交的目标URL，method 属性定义了数据提交的方式（比如 GET 或 POST）。
+<label> 元素定义了表单字段的标签，使得用户能够理解每个字段的含义。for 属性与相应字段的 id 属性相匹配，关联标签和表单字段。
+<input> 元素用于创建不同类型的输入字段，比如文本框、邮箱输入框和密码框。type 属性定义了输入字段的类型，id 属性为每个字段指定一个唯一的标识符，name 属性定义了字段的名称，以便在提交表单时标识字段。
+<input type="submit"> 创建了一个提交按钮，当用户点击它时，表单数据将被提交到 action 属性指定的URL。还有没有更详细的信息
+
+ -->
+ <!-- GPT案例 
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>示例表单</title>
+</head>
+<body>
+<h2>用户信息</h2>
+<form action="/submit_form" method="post">
+  <label for="username">用户名:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="email">邮箱:</label><br>
+  <input type="email" id="email" name="email"><br>
+
+  <label for="password">密码:</label><br>
+  <input type="password" id="password" name="password"><br>
+
+  <input type="submit" value="提交">
+</form>
+
+</body>
+</html>
+
+
+
+  -->
