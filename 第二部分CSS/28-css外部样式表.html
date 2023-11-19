@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 把CSS请过来 -->
+    <!-- link 
+        rel 设置引入文件与该文件关系
+        herf 设置url地址
+        type 定义了被链接文档的MIME类型（Multipurpose Internet Mail Extensions）
+    -->
+    <link rel="stylesheet" href="CSS/28.css" type="text/css">
+   <!-- 方法2
+    @import url(地址)
+     -->
+     <!--
+        在页面加载时，link引用的CSS会同时加载， @import url会在页面加载完后下载
+        @import url兼容性不然link
+
+      -->
+    <style>
+        @import url(CSS/28-2.css);
+    </style>
+</head>
+<body>
+    <h1>111111111</h1>
+    <h2>22222222222222</h2>
+    <h3>44444444444</h3>
+</body>
+</html>
