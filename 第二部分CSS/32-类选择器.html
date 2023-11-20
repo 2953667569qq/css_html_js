@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+        
+        .one
+        {
+            color: indigo;
+        }
+        .two
+        {
+            background-color: blue;
+            color: brown;
+        }
+        .three
+        {
+            background-color: black;
+             color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <!--class类选择器 
+        格式 ：.类名{}
+        需要这个样式的就加上这个类
+     -->
+     <div class="one">111111</div> <!--位于style下面的优先级高-->
+     <div class="two">222222</div>
+     <div  class="three two" >333333</div>
+     <div class="two three" >444444</div>
+     <div>555555</div>
+     <div>666666</div>
+</body>
+</html>
