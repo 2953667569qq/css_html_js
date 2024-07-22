@@ -3,18 +3,12 @@
 </div>
 
 
-<table border="3" style="font-size: 20px; margin-left: auto; margin-right: auto; border-collapse: collapse; border-color: chartreuse; border-radius: 4px;">
-    <tr>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">学习部分</td>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">完成时间</td>
-    </tr>
-    <tr>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">HTML</td>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">2023年12月12月4日</td>
-    </tr>
-    <tr>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">CSS</td>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">2023年12月12月4日</td>
-    </tr>
-</table>
+| 学习内容           | 学习时间      | 备注               |
+| ------------------ | ------------- | ------------------ |
+| HTML               | 2023年12月4日 | 建立文本前已经完成 |
+| 选择器             | 2024年7月22日 | CSS                |
+| 样式表优先级       | 2024年7月22日 | CSS                |
+| 文本属性-尺寸-字体 | 2024年7月22日 | CSS                |
+
+
 
