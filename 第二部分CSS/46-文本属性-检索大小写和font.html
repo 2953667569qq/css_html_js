@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Style Example</title>
+    <style>
+        .capitalize {
+            text-transform: capitalize; /* 首字母大写 */
+            font-family: "Georgia", serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .uppercase {
+            text-transform: uppercase; /* 所有字母大写 */
+            font-family: "Arial", sans-serif;
+            font-size: 20px;
+            font-style: italic;
+        }
+
+        .lowercase {
+            text-transform: lowercase; /* 所有字母小写 */
+            font-family: "Courier New", Courier, monospace;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        .custom {
+            font: italic bold 16px/1.5 "Times New Roman", serif;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p class="capitalize">This is a Capitalized Text Example.</p>
+    <p class="uppercase">THIS IS AN UPPERCASE TEXT EXAMPLE.</p>
+    <p class="lowercase">this is a lowercase text example.</p>
+    <p class="custom">This is a custom styled text with italic, bold, 16px size, and 1.5 line height.</p>
+</body>
+</html>

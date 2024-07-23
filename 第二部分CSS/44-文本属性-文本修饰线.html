@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .class1 {
+            /* 设置下划线 */
+            text-decoration: underline;
+        }
+
+        .class2 {
+            /* 删除线 */
+            text-decoration: line-through;
+        }
+
+        .class3 {
+            /* 上划线 */
+            text-decoration: overline;
+        }
+
+        .class4 {
+            /* 没有任何修饰线，一般用于<a> 标签 */
+            text-decoration: none;
+        }
+
+        .class5 {
+            text-decoration: overline;
+            text-decoration: line-through;
+            text-decoration: underline;
+            text-decoration: none;
+            /* 最下面的会将上面的进行覆盖，所以最好没有线 */
+        }
+
+        .class6 {
+            text-decoration: overline line-through underline;
+            /* 会显示三条线 */
+        }
+    </style>
+</head>
+
+<body>
+    <p class="class1">设置下划线</p>
+    <p class="class2">设置删除线</p>
+    <p class="class3">设置上划线</p>
+    <a href="" class="class4">没有下划线</a>
+    <p class="class5">没有下划线</p>
+    <p class="class6">三条线一起显示</p>
+</body>
+
+</html>

@@ -3,18 +3,14 @@
 </div>
 
 
-<table border="3" style="font-size: 20px; margin-left: auto; margin-right: auto; border-collapse: collapse; border-color: chartreuse; border-radius: 4px;">
-    <tr>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">学习部分</td>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">完成时间</td>
-    </tr>
-    <tr>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">HTML</td>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">2023年12月12月4日</td>
-    </tr>
-    <tr>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;">CSS</td>
-        <td style="padding: 10px; text-align: center; border-radius: 10px;"></td>
-    </tr>
-</table>
+| 学习内容 | 完成时间      | 备注             |
+| -------- | ------------- | ---------------- |
+| HTML     | 2023年12月4日 | 做此表时已经学完 |
+| 选择器   | 2024年7月22日 | CSS              |
+| 文本属性 | 2024年7月23日 | CSS              |
+| 列表属性 | 2024年7月23日 | CSS              |
+
+```
+记录：本仓库最开始是为了完成课程学习的内容，当时已经学习了很多了，但是后面没有去复习，就忘了一些，后面想搭建个人博客，就重新学习了前端的一些内容
+```
 
