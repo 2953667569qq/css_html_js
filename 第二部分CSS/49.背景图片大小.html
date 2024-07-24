@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ch-ZN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            width: 400px;
+            height: 400px;
+            background-image: url("RESOURCE/1.jpg");
+        }
+        .box1
+        {
+         
+            background-size: 100px 100px;
+        }
+        .box2
+        {
+            /* 覆盖整个区域 */
+            background-size: cover;
+        }
+        .box3
+        {
+            /* 整个图片被包含 */
+            background-color: brown;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .box4
+        {
+            /* 自动，原来的尺寸 */
+            background-size: auto;
+        }
+        .box5
+        {
+            /* 自定义尺寸，可能会被拉伸 */
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+</body>
+</html>

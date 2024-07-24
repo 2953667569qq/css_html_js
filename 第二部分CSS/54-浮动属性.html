@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            /* 右浮动 */
+            width: 100px;
+            height: 100px;
+            float: right;
+            background-color: blue;
+        }
+
+        .box2 {
+            /* 左浮动 */
+            width: 100px;
+            height: 100px;
+            float: left;
+            background-color: blueviolet;
+        }
+
+        .box3 {
+            /* 继承父元素的浮动情况 */
+            width: 50px;
+            height: 100px;
+            float: inherit;
+            background-color: chocolate;
+        }
+
+        .box4 {
+            width: 200px;
+            height: 200px;
+            float: none;
+            background-color:darksalmon;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box1">
+        <div class="box3"></div>
+    </div>
+<div class="box4"></div>
+</body>
+
+</html>

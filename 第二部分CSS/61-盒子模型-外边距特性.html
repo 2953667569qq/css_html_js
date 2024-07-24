@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ch-ZN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1
+        {
+            /* 因为父盒子没有设置边框，所以子盒子的margin-top无效 */
+            width: 100px;
+            height: 200px;
+            margin-top: 20px;
+            background-color: brown;
+        }
+        .box2
+        {
+            width: 100px;
+            height: 100px;
+            margin-top: 20px;
+            background-color: blue;
+        }
+        .box3
+        {
+            width: 100px;
+            height: 200px;
+            margin-top: 20px;
+            background-color: brown;
+            /* 有效 */
+            border: 1px solid black;
+        }
+        .box4
+        {
+            width: 100px;
+            height: 200px;
+            margin-top: 20px;
+            background-color: yellow;
+            /* 通过浮动也能解决 */
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2"></div>
+    </div>
+    <div class="box3">
+        <div class="box2"></div>
+    </div>
+    <div class="box4">
+        <div class="box2"></div>
+    </div>
+</body>
+</html>

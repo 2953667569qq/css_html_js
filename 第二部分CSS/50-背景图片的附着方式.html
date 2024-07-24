@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+
+            width: 200px;
+            height: 1000px;
+            background-repeat: no-repeat;
+
+        }
+        .box1 {
+            background-color: red;
+            background-image: url("RESOURCE/1.jpg");
+            /* 在盒子存在于窗口时，固定到窗口中 */
+            background-attachment: fixed;
+
+        }
+        .box2 {
+            background-color: yellow;
+            background-image: url("RESOURCE/1.jpg");
+            background-attachment: local;
+            /* 元素滚动时背景也会滚动 */
+        }
+        .box3 {
+            background-color: blue;
+            background-image: url("RESOURCE/1.jpg");
+            background-attachment: scroll;
+        }
+
+     
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+
+        <div class="box2"></div>
+
+    <div class="box3"></div>
+</body>
+
+</html>
