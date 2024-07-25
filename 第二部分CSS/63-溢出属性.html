@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ch-ZN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            border: 2px solid black;
+        }
+
+        .box1 {
+            /* 溢出数据显示在框外，默认属性 */
+            overflow: visible;
+        }
+        .box2
+        {
+            /* 溢出数据被隐藏裁剪 */
+            overflow:hidden ;
+        }
+        .box3
+        {
+            /* 为盒子添加滚动栏 ，无论是否需要*/
+            overflow: scroll;
+        }
+        .box4
+        {
+            /* 自动配置，如果超过了盒子才会出现滚动栏 */
+            overflow: auto;
+        }
+        .box5
+        {
+            /* 设置某个方向的属性值 */
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box5"><img src="RESOURCE/1.jpg" alt=""></div>
+    <div class="box3">
+        含义: 内容溢出容器时会被显示，超出容器的部分不会被剪裁。
+        使用场景
+    </div>
+    <div class="box4">
+        含义: 内容溢出容器时会被显示
+    </div>
+    <div class="box3">
+        含义: 内容溢出容器时会被显示
+    </div>
+    <div class="box2">
+        含义: 内容溢出容器时会被显示，超出容器的部分不会被剪裁。
+        使用场景
+    </div>
+    <div class="box1">
+        含义: 内容溢出容器时会被显示，超出容器的部分不会被剪裁。
+        使用场景
+    </div>
+    
+</html>
