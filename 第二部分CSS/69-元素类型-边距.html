@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            /* 具有dispaly：block或者display:list-item的就是块元素 */
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        span {
+            /* 无效 */
+            padding: 100px;
+            margin: 100px;
+        }
+
+        img {
+            /* 有效 */
+            padding: 100px;
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <span>1111</span>
+    <img src="RESOURCE/1.jpg" alt="">
+</body>
+
+</html>

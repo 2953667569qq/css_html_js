@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            margin-bottom: 100px;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+        .box1 {
+            /* 直接截断 */
+            text-overflow: clip;
+        }
+        .box2 {
+            /* 显示省略号 */
+            text-overflow: ellipsis;
+        }
+        .box3::after {
+            content: '...更多';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">.child 元素继承了 .parent 元素的 
+        color 和 font-size，但其 margin 
+        被设置为继承父元素的值（10px）。
+    </div>
+    <div class="box2">.child 元素继承了 .parent 元素的 
+        color 和 font-size，但其 margin 
+        被设置为继承父元素的值（10px）。
+    </div>
+    <div class="box3">.child 元素继承了 .parent 元素的 
+        color 和 font-size，但其 margin 
+        被设置为继承父元素的值（10px）。
+    </div>
+</body>
+</html>
