@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine;
+        }
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color:hotpink;
+            position:absolute;
+            top: 15px;
+            left: 15px;
+            /* 会被遮盖 */
+            z-index: 3;/* 设置了层级就不会被遮盖了*/
+        }
+        .box3{
+            width: 100px;
+            height: 100px;
+            background-color:rgb(69, 34, 165);
+            position:absolute;
+            top: 30px;
+            left: 15px;
+            z-index: 4;/* 层级值越大，显示越上层*/
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

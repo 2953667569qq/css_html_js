@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 100px;
+            height:100px;
+            background-color: brown;
+            /* 默认 */
+            position: static;
+            /* 无效 */
+            top: 1000px;
+        }
+        .box2{
+            width: 100px;
+            height:100px;
+            background-color: black;
+            /* 有效，且不影响后面的 */
+            position: relative;
+            top: 50px;
+            left: 100px;
+            
+        }
+        .box3{
+            width: 100px;
+            height:100px;
+            background-color: rgb(57, 173, 72);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>

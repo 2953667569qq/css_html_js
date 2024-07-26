@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            /* 设置水平居中 */
+            margin: 0 auto;
+            /*都设置为auto没有效果*/
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            /* 现在是左上角在中间，现在还要把盒子中心移动到中间 */
+            margin-left: -100px;
+            margin-top: -100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+
+</html>
